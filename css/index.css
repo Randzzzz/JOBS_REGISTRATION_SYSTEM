@@ -1,0 +1,75 @@
+*{
+  font-family: monospace;
+}
+body {
+  margin: 0;
+  background: rgb(190,177,183);
+background: radial-gradient(circle, rgba(190,177,183,1) 0%, rgba(227,240,255,1) 100%);
+}
+
+.outer{
+  display: flex;
+  flex-direction: row;
+}
+.container1{
+  display: flex;
+  flex: 3;
+  padding: 70px 150px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.container2{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  padding-top: 70px;
+  align-items: baseline;
+}
+input, select{
+  padding: 6px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  box-shadow: 0px 0px 20px -18px;
+}
+select{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.submitBtn{
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 80px;
+  height: 30px;
+  transition: 0.3s;
+}
+.submitBtn:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 5px #cbcdcf5f;
+  color: black;
+}
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 16px;
+  width: 100%;
+  margin-right: 50px;
+}
+th, td{
+  border: 3px solid black;
+  padding: 10px;
+  width: 50%;
+}
+table a{
+  text-decoration: none;
+  color: rgb(63, 61, 61);
+}
+table a:hover{
+  text-decoration:underline;
+  color: black;
+}

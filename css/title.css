@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.title {
+  color: white;
+  background: rgb(60,56,56);
+background: radial-gradient(circle, rgba(60,56,56,1) 0%, rgba(41,41,41,1) 100%);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+}
